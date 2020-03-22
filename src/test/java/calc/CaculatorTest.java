@@ -22,6 +22,15 @@ public class CaculatorTest {
 
 		Assert.assertEquals(result, calc.add(a, b));
 	}
+	
+	@Test
+	public void testAdd2() {
+		int a=1;
+		int b=3;
+		int result=4;
+
+		Assert.assertEquals(result, calc.add(a, b));
+	}
 
 	@Test
 	public void testSubtract() {
